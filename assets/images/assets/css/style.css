@@ -3,20 +3,13 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: rgb(3, 1, 1);
-  background: url("../images/concrete_seamless_160.png");
+  background: url("../images/concrete_seam.png");
 }
 
 * {
   /* box-sizing: border-box; */
 }
-a.navbar-brand{
-  background-color: #4aaaa5;
-  padding: 25px;
-  color: #fff;
-}
-#link{
-  color: white;
-}
+
 /* general */
 
 .container {
@@ -59,7 +52,7 @@ h3 {
 
 /* header */
 
-/* #masthead {
+#masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -67,7 +60,7 @@ h3 {
   overflow: auto;
   color: #fff;
   background: #fff;
-  border-bottom: 2px solid #ccc; */
+  border-bottom: 2px solid #ccc;
 }
 
 #logo {
@@ -85,6 +78,7 @@ h3 {
 }
 
 nav {
+  float: right;
   margin-top: 25px;
 }
 
@@ -99,7 +93,6 @@ nav a {
 }
 
 nav a:first-child {
-  margin-left: 05%;
   border-left: 0 none;
 }
 
